@@ -5,7 +5,6 @@ description = "Plot jumpstand stacked bars and double pie charts plots"
 authors = ["gschliszka <schgazsi@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "jumpstand_plots"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
