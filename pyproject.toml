@@ -7,10 +7,11 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 pandas = "^2.0.3"
-numpy = "^1.25.1"
+numpy = "^1.23"
 matplotlib = "^3.7.2"
+lickometer = {git = "https://github.com/hillierdani/lickometer", rev = "converge_into_package"}
 
 
 [build-system]
